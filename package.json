@@ -1,0 +1,24 @@
+{
+  "name": "cucumber-js-parallel-bug",
+  "version": "1.0.0",
+  "description": "Illustrate issue running cucumber with --parallel flag",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "test-parallel": "cucumber-js --parallel 4"
+  },
+  "author": "Kyle Moore",
+  "license": "WTFPL",
+  "dependencies": {
+    "cucumber": "^4.2.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kyledmoore/cucumber-js-parallel-bug.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kyledmoore/cucumber-js-parallel-bug/issues"
+  },
+  "homepage": "https://github.com/kyledmoore/cucumber-js-parallel-bug#readme"
+}
